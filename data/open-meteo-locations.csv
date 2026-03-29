@@ -1,0 +1,9 @@
+location_id,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
+0,29.771528,-95.33099,20.0,-18000,America/Chicago,GMT-5
+1,32.37258,-95.35196,165.0,-18000,America/Chicago,GMT-5
+2,32.021088,-102.05066,851.0,-18000,America/Chicago,GMT-5
+3,32.794376,-96.8215,137.0,-18000,America/Chicago,GMT-5
+4,27.732864,-97.38202,10.0,-18000,America/Chicago,GMT-5
+5,30.263618,-97.69321,167.0,-18000,America/Chicago,GMT-5
+6,32.442883,-99.7327,531.0,-18000,America/Chicago,GMT-5
+7,33.919155,-98.52869,294.0,-18000,America/Chicago,GMT-5
