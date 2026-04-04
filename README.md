@@ -131,14 +131,14 @@ I treated 2025 as the main test year as it is the most recent complete year. 202
 ## How to Run
 
 - Collect the data from the Open-Meteo and ERCOT websites.
-- Seperate the Open-Meteo locations data from the weather data
-- Place rename the ERCOT load files and Open-Meteo CSVs into ./data/ based on the repo structure above
+- Separate the Open-Meteo locations data from the weather data
+- Place the ERCOT load files and Open-Meteo CSVs into ./data/ based on the repo structure above
 - Run the `ErcotLoadPredictor.ipynb` from top to bottom
 - Check generated outputs in `./output/`
 
 ## Summary
 
-This project compares naive baseline, tree-based, boosting, and LTSM sequence models for 24-hour-ahead ERCOT load prediction using load, weather, and calendar features.
+This project compares naive baseline, tree-based, boosting, and LSTM sequence models for 24-hour-ahead ERCOT load prediction using load, weather, and calendar features.
 
 The main result was that LightGBM generalized the best on the full 2025 holdout year, while the naive baseline held up best on the incomplete robustness check.
 
