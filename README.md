@@ -78,21 +78,21 @@ I treated 2025 as the main test year as it is the most recent complete year. 202
 
 ### 2025 holdout year
 
-| Model | MAE | RMSE | MAPE | R_squared |
-|------|----:|-----:|-----:|----------:|
-| LightGBM | 2621.898 | 3715.387 | 4.594% | 0.86800 |
-| Baseline_CurrentERCOT | 3150.300 | 4254.870 | 5.639% | 0.82688 |
-| Random Forest | 2998.473 | 4257.757 | 5.225% | 0.82664 |
-| LSTM | 3117.018 | 4268.378 | 5.456% | 0.82572 |
+| Model                   |     MAE |    RMSE |   MAPE | R_squared |
+|------------------------|--------:|--------:|-------:|----------:|
+| LightGBM               | 2717.484 | 3816.321 | 4.772% | 0.86073 |
+| Baseline_CurrentERCOT  | 3150.300 | 4254.870 | 5.639% | 0.82688 |
+| Random Forest          | 3249.169 | 4491.537 | 5.685% | 0.80700 |
+| LSTM                   | 3404.534 | 4566.864 | 5.990% | 0.80100 |
 
 ### 2026 YTD robustness check
 
-| Model | MAE | RMSE | MAPE | R_squared |
-|------|----:|-----:|-----:|----------:|
-| Baseline_CurrentERCOT | 2911.989 | 3997.250 | 5.444% | 0.62906 |
-| LightGBM | 3053.558 | 4638.775 | 5.483% | 0.50044 |
-| Random Forest | 3981.828 | 5484.103 | 7.177% | 0.30178 |
-| LSTM | 3999.069 | 5563.192 | 7.129% | 0.28410 |
+| Model                   |     MAE |    RMSE |   MAPE | R_squared |
+|------------------------|--------:|--------:|-------:|----------:|
+| Baseline_CurrentERCOT  | 2911.989 | 3997.250 | 5.444% | 0.62906 |
+| LightGBM               | 3053.558 | 4638.775 | 5.483% | 0.50044 |
+| Random Forest          | 3981.828 | 5484.103 | 7.177% | 0.30178 |
+| LSTM                   | 3999.069 | 5563.192 | 7.129% | 0.28410 |
 
 ![final_comparison](docs/final_comparison.png)
 
